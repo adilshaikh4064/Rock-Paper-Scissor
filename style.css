@@ -1,0 +1,109 @@
+*{
+    text-align: center;
+    margin: 0px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: #232f3e;
+    color: white;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container{
+    height: 70vh;
+}
+
+
+
+
+
+.play{
+    height: 40vmin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.scores{
+    height: 20vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.result{
+    height: 20vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+
+.box{
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 15rem;
+    margin: 0px 2rem 0px 2rem;
+    font-size: 15vmin;
+}
+
+.box:hover{
+    opacity: 0.5;
+    box-shadow: 0 0 2rem 1rem rgba(0, 0, 0, 1);
+}
+
+
+
+.you{
+    display: inline-block;
+    margin: 0px 2rem 0px 2rem;
+}
+.comp{
+    display: inline-block;
+    margin: 0px 2rem 0px 2rem;
+}
+
+.you div, .comp div{
+    height: 12vmin;
+    font-size: 10vmin;
+}
+.you p, .comp p{
+    width: 12vmin;
+    font-size: 5vmin;
+}
+
+
+.result p{
+    width: 30vmax;
+    font-size: 4vmin;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: .5rem;
+    border: none;
+}
+
+
+
+#rock{
+    background-color: pink;
+}
+#paper{
+    background-color: plum;
+}
+#scissor{
+    background-color: aquamarine;
+}
